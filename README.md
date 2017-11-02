@@ -60,9 +60,9 @@ pip install git+https://github.com/bluenote10/PandasDataFrameGUI
 or if you prefer a regular git clone:
 
 ```bash
-git clone git@github.com:bluenote10/PandasDataFrameGUI.git dfgui
+git clone https://github.com/bluenote10/PandasDataFrameGUI.git dfgui
 cd dfgui
-pip install -e .
+pip install -U -e .
 # and to check if everything works:
 ./demo.py
 ```
