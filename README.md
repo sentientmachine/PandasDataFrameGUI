@@ -49,7 +49,11 @@ Since wxPython is not pip-installable, dfgui does not handle dependencies automa
 - matplotlib
 - wx
 
-## Installation Instructions
+## Install instructions:
+
+Installation instructions: dfgui consists of a single python module, so you might as well just plunk the file where you need it: [`dfgui/dfgui.py`](dfgui/dfgui.py).
+
+## broken Installation Instructions:
 
 I haven't submitted dfgui to PyPI (yet), but you can install directly from git (having met all requirements). For instance:
 
@@ -57,7 +61,7 @@ I haven't submitted dfgui to PyPI (yet), but you can install directly from git (
 pip install git+https://github.com/bluenote10/PandasDataFrameGUI
 ```
 
-or if you prefer a regular git clone:
+## Broken instructions: or if you prefer a regular git clone:
 
 ```bash
 git clone git@github.com:bluenote10/PandasDataFrameGUI.git dfgui
@@ -67,9 +71,9 @@ pip install -e .
 ./demo.py
 ```
 
-In fact, dfgui only consists of a single module, so you might as well just download the file [`dfgui/dfgui.py`](dfgui/dfgui.py).
 
-### Anaconda/Windows Instructions
+
+### Broken Anaconda/Windows Instructions
 
 Install wxpython through conda or the Anaconda GUI.
 
